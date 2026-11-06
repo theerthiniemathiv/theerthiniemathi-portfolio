@@ -398,3 +398,15 @@ body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;opa
 
 /* School board label */
 .school-board{display:inline-flex;align-items:center;padding:5px 11px;margin-bottom:9px;border:1px solid rgba(170,145,255,.32);border-radius:999px;color:#c6b4ff;background:rgba(139,108,255,.10);font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase}
+
+
+/* First-screen resume access */
+.site-header nav a[href="#resume"]{color:#e4d6f5}
+.button-resume{border:1px solid rgba(203,164,255,.65);background:linear-gradient(110deg,rgba(169,133,255,.18),rgba(213,177,244,.10));color:#eadbff}
+.button-resume:hover{border-color:#d7b1f4;transform:translateY(-3px);box-shadow:0 10px 30px rgba(169,133,255,.18)}
+.button-resume span{margin-left:12px;color:#d7b1f4}
+.hero-resume-quick{display:flex;align-items:center;flex-wrap:wrap;gap:9px 16px;margin-top:17px;color:#a99ab8;font-size:10px}
+.hero-resume-quick>span{font:9px 'DM Mono',monospace;letter-spacing:1.1px;color:#9b8aa9}
+.hero-resume-quick a{color:#d9c7eb;border-bottom:1px solid rgba(199,165,231,.35);padding-bottom:3px;transition:color .2s,border-color .2s}
+.hero-resume-quick a:hover{color:#fff;border-color:#d7b1f4}
+@media(max-width:650px){.hero-actions{gap:9px;flex-wrap:wrap}.hero-actions .button{padding:12px 15px;font-size:11px}.hero-resume-quick{gap:10px 13px;margin-top:15px}.hero-resume-quick>span{width:100%}.site-header nav a[href="#resume"]{color:#eadbff}}
